@@ -1,41 +1,24 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <nav>
-    <ul>
-      <li class="menu-deroulant">
-        <a href="#">SERVICES</a>
-        <ul class="sous-menu">
-          <li><a href="https://charentemaritime.sharepoint.com/sites/DSI-CSU-HotLine/Documents%20partages/Forms/AllItems.aspx" target="_blank">SHAREPOINT</a></li>
-          <li><a href="https://portal.azure.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/RiskyUsers" target="_blank">AZURE</a></li>
-          <li><a href="https://www.charente-maritime.fr/sesame/" target="_blank">SESAME</a></li>
-          <li><a href="https://cd17.helloid.com/app/applications" target="_blank">HELLOID</a></li>
-          <li><a href="https://identit.in.charente-maritime.fr/index.asp" target="_blank">UMRA</a></li>
-          <li><a href="Pages/ms.html" target="_blank">RECHERCHE</a></li>
-        </ul>
-      </li>
-      <li class="menu-deroulant">
-        <a href="#">REALISATIONS</a>
-        <ul class="sous-menu">
-          <li><a href="https://charente-maritime.fr/IsilogWebSystem/Pages/Global/GLOB000.aspx?IwsId=5" target="_blank">SERENIT</a></li>
-          <li><a href="https://tendforhosting.cloudspace.se/statistics/queue" target="_blank">tendfor Statistics</a></li>
-        </ul>
-      </li>
-      <li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDdkMDRhYzktZTE2Yy00ZWZhLWI1ZGYtYWE5NGU2YTNkZWM4%40thread.v2/0?context=%7b%22Tid%22%3a%227b6c3cb8-66d5-4c59-a9b7-c82c925e1e2b%22%2c%22Oid%22%3a%22ffdb7083-98a3-46eb-a893-345cbe16f2e6%22%7d" target="_blank">REUNION</a></li>
-      <li><a href="https://charentemaritime-my.sharepoint.com/personal/julien_mabille_ext_charente-maritime_fr/_layouts/15/Doc.aspx?sourcedoc={2c2dbdd0-a61c-49ef-b8b1-7153156ef3b1}&action=edit&wd=target%28Section%20sans%20titre.one%7Cb39a5135-54f1-4d5a-ba07-010cec1ad63f%2FMODELES%20TYPE%7Ce3598b65-aa31-4c7f-a8c2-ec581bb89bc5%2F%29&wdorigin=NavigationUrl" target="_blank">ONENOTE-HOTLINE</a></li>
-    </ul>
-  </nav>
-    <div class="container">
-        <br>
-        <h1>HOT-R-LINE</h1>
-        <br>
-        <p>Actuellement en cours de travaux, pas de date de prévue concernant la mise en production.</p>
-        <iframe src="http://sw-monitor:88/" width="80%" height="60%"></iframe>
-    </div>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <!-- importer le fichier de style -->
+ <link rel="stylesheet" href="Pages/style.css" media="screen" type="text/css" />
+ </head>
+ <body>
+ <div id="container">
+ <!-- zone de connexion -->
 
-</body>
+ <form action="index.html" method="POST">
+ <h1>Connexion</h1>
+
+ <label><b>Nom user </b></label>
+ <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+ <label><b>Mot de passe de mon cul sur la commode</b></label>
+ <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+ <input type="submit" id='submit' value='LOGIN'>
+ </form>
+ </div>
+ </body>
 </html>
