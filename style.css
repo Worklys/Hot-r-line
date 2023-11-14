@@ -3,11 +3,12 @@
 	src: url('fonts/Molot.otf') format(opentype),
  }
 
-*{
+html{
 		 margin: 0;
 		 padding: 0;
 		 box-sizing: border-box;
 		 font-family: "russia";
+		 overflow: hidden;
 		 background-color: black;
  }
 
@@ -35,9 +36,9 @@
  }
 
  img{
-	 margin-top:150px;
-		 width: 300px;
-		 height: 300px;
+	 margin-top:50px;
+		 width: 200px;
+		 height: 200px;
 		 object-fit: cover;
 		 border-radius: 50%;
  }
@@ -52,13 +53,11 @@ p{
 				 max-width: 400px;
 				 font-family: "russia";
 		 }
-
-img{
-				 width: 200px;
-				 height: 200px;
-		 }
 }
 
+@media only screen (min-width: 321px) and (max-width: 799px){
+/*style smartphones et petites tablettes en portrait*/
+}
 	 :root{
 		   --hauteur-menu: 60px;
 		 }
@@ -131,11 +130,11 @@ nav > ul > li:hover > a{
 }
 
 .sous-menu > li:hover {
-  background-color: #FAFAFA;
+  background-color: #74726F;
 }
 
 .sous-menu > li:hover > a{
-  color: #FFE436;
+  color: #FAE301;
 }
 
 @keyframes rotationFleche{
