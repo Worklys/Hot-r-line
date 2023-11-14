@@ -3,13 +3,12 @@
 	src: url('fonts/Molot.otf') format(opentype),
  }
 
-html{
+*{
 		 margin: 0;
 		 padding: 0;
+		 background-color: black;
 		 box-sizing: border-box;
 		 font-family: "russia";
-		 overflow: hidden;
-		 background-color: black;
  }
 
  .container{
