@@ -2,22 +2,20 @@
  <head>
  <meta charset="utf-8">
  <!-- importer le fichier de style -->
- <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+ <link rel="stylesheet" href="Pages/style.css" media="screen" type="text/css" />
  </head>
  <body>
- <div id="container">
- <!-- zone de connexion -->
 
- <form action="home.php" method="POST">
- <h1>Connexion</h1>
-
- <label><b>Nom user </b></label>
- <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
-
- <label><b>Mot de passe de mon cul sur la commode</b></label>
- <input type="password" placeholder="Entrer le mot de passe" name="password" required>
- <input type="submit" id='submit' value='LOGIN'>
- </form>
- </div>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+      </div>
+      
+      <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password" minlength="8" required />
+      </div>
+      
+      <input type="submit" href="home.html" value="Sign in" />
  </body>
 </html>
