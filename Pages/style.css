@@ -3,6 +3,8 @@
 html{
 
   background-color: #55555;
+  display: flex;
+  text-align: center;
 
 }
 
