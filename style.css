@@ -2,7 +2,7 @@
 	font-family: 'russia';
 	src: url('fonts/Molot.otf') format(opentype),
  }
-
+ 
 html{
 	overflow: hidden;
 }
@@ -47,9 +47,6 @@ html{
  }
 
 
-@media only screen (min-width: 321px) and (max-width: 799px){
-/*style smartphones et petites tablettes en portrait*/
-}
 	 :root{
 		   --hauteur-menu: 60px;
 		 }
