@@ -2,7 +2,7 @@
 	font-family: 'russia';
 	src: url('fonts/Molot.otf') format(opentype),
  }
- 
+
 html{
 	overflow: hidden;
 }
@@ -45,7 +45,6 @@ html{
 		 object-fit: cover;
 		 border-radius: 50%;
  }
-
 
 	 :root{
 		   --hauteur-menu: 60px;
@@ -154,6 +153,7 @@ nav > ul > li:hover > a{
   animation: rotationFleche 0.2s linear forwards;
 	color: yellow;
 }
+
 .menu-deroulant:hover > .sous-menu {
   animation: apparitionSousMenu 0.2s linear forwards;
 }
