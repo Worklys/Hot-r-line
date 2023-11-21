@@ -6,11 +6,22 @@
 html{
 	overflow: hidden;
 }
+#background-video {
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+filter: blur(10px) ;
+}
 
 *{
 		 margin: 0;
 		 padding: 0;
-		 background-color: black;
 		 box-sizing: border-box;
 		 font-family: "russia";
  }
@@ -30,13 +41,13 @@ html{
 
  h1{
 		 font-size: 36px;
-		 color: white;
+		 color: black;
 		 font-family: "russia";
  }
 
  p{
 		 font-size: 18px;
-		 color: white;
+		 color: black;
 		 max-width: 600px;
 		 text-align: center;
 		 font-family: monospace;
