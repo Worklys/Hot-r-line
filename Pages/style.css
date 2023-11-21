@@ -1,35 +1,52 @@
+@font-face {
+	font-family: 'russia';
+	src: url('fonts/Molot.otf') format(opentype),
+ }
+
 body{
   display: block;
   text-align: center;
-  background-image: url("images/MontFuji.jpg");
+}
+
+header{
+  margin-top: 10%;
+}
+
+input{
+text-align: center;
+padding: 10px 15px;
+margin-bottom: 1px;
+border: 1px solid rgba(0,0,0,0);
+box-shadow: 1px 10px 10px 1px rgba(0,0,0,0.3);
+border-bottom-color: rgba(0,0,0,0.3);
+border-right-color: rgba(0,0,0,0.3);
+border-radius: 50px;
+background: rgba(0,0,0,0.3);
+color: rgba(0,0,0,0.1);
+}
+
+#background-video{
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+filter: blur(10px);
 }
 
 h1{
+font-family: "russia" ;
+text-shadow: 10px 10px 10px 10px red;
+font-size: 30px;
 
 }
 
 .buttom{
-  color: red;
+  font-family: monospace;
+  color: black;
 
-}
-
-.block1{
-  background-color: rgba(5,50,50,0.3);
-  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3);
-  height: 200px;
-  width: 200px;
-  border-radius: 30%;
-  z-index: 1;
-}
-
-.block2{
-  background-color: grey;
-  height: 200px;
-  width: 200px;
-  border-radius: 40%;
-  z-index: 0;
-  position: absolute;
-  margin: auto;
-  padding: auto;
-  display: flex;
 }
