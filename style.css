@@ -43,7 +43,7 @@ filter: blur(10px) ;
 		 font-size: 36px;
 		 color: black;
 		 font-family: "russia";
-		 
+
 
  }
 
@@ -86,7 +86,7 @@ nav ul {
 }
 
 nav > ul > li {
-  background-color: black;
+  background-color: rgba(0,0,0,0.3);
   position: relative;
   height: 100%;
   flex: 1;
@@ -115,7 +115,7 @@ li a {
   margin-top: var(--hauteur-menu);
   width: 100%;
   text-align: left;
-  background-color: black;
+  background-color: rgba(0,0,0,0.3);
   border-radius: 2px;
   overflow: hidden;
   max-height: 0;
@@ -135,11 +135,11 @@ nav > ul > li:hover > a{
 }
 
 .sous-menu > li:hover {
-  background-color: #74726F;
+  background-color: rgba(50,50,50,0.3);
 }
 
 .sous-menu > li:hover > a{
-  color: #FAE301;
+  color: rgba(50,50,50,1);
 }
 
 @keyframes rotationFleche{
@@ -168,7 +168,7 @@ nav > ul > li:hover > a{
 
 .menu-deroulant:hover > a:after{
   animation: rotationFleche 0.2s linear forwards;
-	color: yellow;
+	color: rgba(50,50,50,0.3);
 }
 
 .menu-deroulant:hover > .sous-menu {
