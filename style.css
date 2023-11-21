@@ -6,6 +6,7 @@
 html{
 	overflow: hidden;
 }
+
 #background-video {
 height: 100vh;
 width: 100vw;
@@ -43,8 +44,6 @@ filter: blur(10px) ;
 		 font-size: 36px;
 		 color: black;
 		 font-family: "russia";
-
-
  }
 
  p{
@@ -63,9 +62,9 @@ filter: blur(10px) ;
 		 border-radius: 50%;
  }
 
-	 :root{
-		   --hauteur-menu: 60px;
-		 }
+:root{
+		 --hauteur-menu: 60px;
+		}
 
 nav {
   width: 100%;
