@@ -7,6 +7,11 @@ html{
 	overflow: hidden;
 }
 
+:root{
+		 --hauteur-menu: 60px;
+		}
+
+
 #background-video{
 height: 100vh;
 width: 100vw;
@@ -27,8 +32,8 @@ filter: blur(3px);
 		 font-family: "russia";
  }
 
- label {
-  display: block;
+ label{
+  	 display: block;
 }
 
  .container{
@@ -41,12 +46,11 @@ filter: blur(3px);
  }
 
 iframe{
-	
-		 background-image: url("images\LEDEPARTEMENT.png");
+
+		 background-image: url(images/LEDEPARTEMENT.png);
 		 text-align: center;
 		 padding: 1px 1px;
 		 margin-bottom: 1px;
-		 border: 1px solid rgba(0,0,0,0);
 		 box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
 		 border-bottom-color: rgba(0,0,0,0.3);
 		 border-right-color: rgba(0,0,0,0.3);
@@ -71,16 +75,12 @@ iframe{
  }
 
  img{
-	 margin-top:50px;
+	   margin-top:50px;
 		 width: 200px;
 		 height: 200px;
 		 object-fit: cover;
 		 border-radius: 50%;
  }
-
-:root{
-		 --hauteur-menu: 60px;
-		}
 
 nav {
   width: 100%;
