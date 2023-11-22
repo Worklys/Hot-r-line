@@ -7,7 +7,11 @@ html{
 	overflow: hidden;
 }
 
-#background-video {
+:root{
+		 --hauteur-menu: 60px;
+		}
+
+#background-video{
 height: 100vh;
 width: 100vw;
 object-fit: cover;
@@ -17,7 +21,7 @@ right: 0;
 top: 0;
 bottom: 0;
 z-index: -1;
-filter: blur(10px) ;
+filter: blur(3px);
 }
 
 *{
@@ -27,26 +31,46 @@ filter: blur(10px) ;
 		 font-family: "russia";
  }
 
- label {
-  display: block;
+ label{
+  	 display: block;
 }
 
  .container{
+	 	 margin: 100px;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 justify-content: center;
-		 height: 100vh;
 		 font-family: "russia";
+		 margin: auto;
+		 padding: auto;
  }
 
+iframe{
+		 height: 350px;
+		 background-image: url(images/dp17.png);
+		 text-align: center;
+		 padding: 1px 1px;
+		 margin-bottom: 1px;
+		 box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+		 border-bottom-color: rgba(0,0,0,0.3);
+		 border-right-color: rgba(0,0,0,0.3);
+	 	 border-radius: 10px;
+		 background: rgba(0,0,0,0.3);
+		 color: rgba(0,0,0,0.1);
+		 background-color: rgba(0,0,0,0.3);
+}
+
  h1{
+	 margin: 100px;
 		 font-size: 36px;
 		 color: black;
 		 font-family: "russia";
+
  }
 
  p{
+	 	 padding-bottom: 100px;
 		 font-size: 18px;
 		 color: black;
 		 max-width: 600px;
@@ -55,16 +79,12 @@ filter: blur(10px) ;
  }
 
  img{
-	 margin-top:50px;
+	   margin-top:50px;
 		 width: 200px;
 		 height: 200px;
 		 object-fit: cover;
 		 border-radius: 50%;
  }
-
-:root{
-		 --hauteur-menu: 60px;
-		}
 
 nav {
   width: 100%;
